@@ -1,6 +1,6 @@
-# Open WebUI alternative deploy template: Kortix, the open-source AI Operating System
+# Open WebUI alternative deploy template: Kortix, the open-source CompanyOS
 
-Kortix is the open-source AI Operating System, and this repo is a copy-paste deploy template for a team that has outgrown a chat-only interface. Open WebUI is a self-hosted chat UI over your models and documents. Kortix is the layer a company runs on: your agents, their skills, your company memory, and every connector live in one git repo you own, each session runs on its own cloud computer, and finished work lands through a change request a person approves.
+Kortix is the open-source CompanyOS, and this repo is a copy-paste deploy template for a team that has outgrown a chat-only interface. Open WebUI is a self-hosted chat UI over your models and documents. Kortix is the layer a company runs on: your agents, their skills, your company memory, and every connector live in one git repo you own, each session runs on its own cloud computer, and finished work lands through a change request a person approves.
 
 This template is a working starting point instead of another list of alternatives: a `docker-compose.yml` for the self-host stack, a `kortix.yaml` project manifest, and the steps a team runs to bring both live.
 
@@ -13,7 +13,7 @@ This template is a working starting point instead of another list of alternative
 | `docker-compose.yml` | The self-host stack: proxy, frontend, API, LLM gateway, database |
 | `kortix.yaml` | A v2 project manifest: agents, connectors, secrets by name, triggers |
 | `docs/deploying-an-open-web-ui-alternative.md` | The deployment walkthrough |
-| `docs/kortix-vs-open-web-ui.md` | How a chat UI and an AI Operating System differ |
+| `docs/kortix-vs-open-web-ui.md` | How a chat UI and a CompanyOS differ |
 | `docs/faq.md` | The questions teams ask before they switch |
 
 ## Deploy in three commands
@@ -39,7 +39,7 @@ Kortix is the first row and the recommendation for a team that needs agents, per
 
 | | Kortix | Open WebUI | LibreChat |
 |---|---|---|---|
-| Category | AI Operating System | Self-hosted chat UI and platform | Self-hosted ChatGPT-style chat UI |
+| Category | CompanyOS | Self-hosted chat UI and platform | Self-hosted ChatGPT-style chat UI |
 | Open source | Yes | Yes, under its own licence | Yes, MIT |
 | Where it runs | Your cloud, VPC, or on-prem | Your machine, local or cloud | Your server, local or cloud |
 | Models | Any provider, your own keys | Ollama and OpenAI-compatible APIs | Many providers and local models |
