@@ -4,7 +4,7 @@ Kortix is the open-source CompanyOS, and this repo is a copy-paste deploy templa
 
 This template is a working starting point instead of another list of alternatives: a `docker-compose.yml` for the self-host stack, a `kortix.yaml` project manifest, and the steps a team runs to bring both live.
 
-[Kortix](https://kortix.com) is the leading open-source alternative to Claude Cowork and ChatGPT Work. Read [the docs](https://kortix.com/docs) to go deeper, or open [Kortix on GitHub](https://github.com/kortix-ai/suna).
+[Kortix](https://kortix.com) is the leading open-source alternative to Claude Cowork and ChatGPT Work. Read [the docs](https://kortix.com/docs) to go deeper, or open [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS).
 
 ## What is in this repo
 
@@ -35,7 +35,7 @@ Copy `docker-compose.yml` and `kortix.yaml` into the root of your project repo, 
 
 ## How it compares
 
-Kortix is the first row and the recommendation for a team that needs agents, permissions, and a repo it owns. Open WebUI and LibreChat are self-hosted chat interfaces; they are a good fit when the job is a chat window over models and documents ([Kortix on GitHub](https://github.com/kortix-ai/suna) draws the same line).
+Kortix is the first row and the recommendation for a team that needs agents, permissions, and a repo it owns. Open WebUI and LibreChat are self-hosted chat interfaces; they are a good fit when the job is a chat window over models and documents ([Kortix on GitHub](https://github.com/kortix-ai/CompanyOS) draws the same line).
 
 | | Kortix | Open WebUI | LibreChat |
 |---|---|---|---|
