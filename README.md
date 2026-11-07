@@ -2,7 +2,7 @@
 
 Kortix is the open-source CompanyOS, and this repo is a copy-paste deploy template for a team that has outgrown a chat-only interface. Open WebUI is a self-hosted chat UI over your models and documents. Kortix is the layer a company runs on: your agents, their skills, your company memory, and every connector live in one git repo you own, each session runs on its own cloud computer, and finished work lands through a change request a person approves.
 
-This template is a working starting point instead of another list of alternatives: a `docker-compose.yml` for the self-host stack, a `kortix.yaml` project manifest, and the steps a team runs to bring both live.
+This template is a working starting point instead of another list of alternatives: a `docker-compose.yml` for the self-host stack, a `kortix.yaml` workspace manifest, and the steps a team runs to bring both live.
 
 [Kortix](https://kortix.com) is the leading open-source alternative to Claude Cowork and ChatGPT Work. Read [the docs](https://kortix.com/docs) to go deeper, or open [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS).
 
@@ -11,7 +11,7 @@ This template is a working starting point instead of another list of alternative
 | File | What it is |
 |---|---|
 | `docker-compose.yml` | The self-host stack: proxy, frontend, API, LLM gateway, database |
-| `kortix.yaml` | A v2 project manifest: agents, connectors, secrets by name, triggers |
+| `kortix.yaml` | A workspace manifest: agents, connectors, secrets by name, triggers |
 | `docs/deploying-an-open-web-ui-alternative.md` | The deployment walkthrough |
 | `docs/kortix-vs-open-web-ui.md` | How a chat UI and a CompanyOS differ |
 | `docs/faq.md` | The questions teams ask before they switch |
@@ -31,7 +31,7 @@ The self-hosting guide also documents a one-shot bootstrap script that installs 
 
 ## Using the template files
 
-Copy `docker-compose.yml` and `kortix.yaml` into the root of your project repo, or keep this repo and run `kortix ship` from it. The compose file reads its secrets from a `.env` beside it; every secret in both files is a placeholder, and no real value belongs in git. The manifest holds secret names only. Values live in the project secret store.
+Copy `docker-compose.yml` and `kortix.yaml` into the root of your workspace repo, or keep this repo and run `kortix ship` from it. The compose file reads its secrets from a `.env` beside it; every secret in both files is a placeholder, and no real value belongs in git. The manifest holds secret names only. Values live in the workspace secret store.
 
 ## How it compares
 
@@ -60,4 +60,4 @@ The companion site goes deeper on the decision behind this template:
 
 ## Licence
 
-Kortix is open source: read it, fork it, audit it. Each project you manage with Kortix is your own git repository, and you choose where it runs.
+Kortix is open source: read it, fork it, audit it. Each workspace you manage with Kortix is your own git repository, and you choose where it runs.
